@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="=width=device-width, initial-scale=1.0">
+    <title>ManojNagaSaiUppu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-xU44y6ksC/P6LeIwDpNv/W1ZKj/SZ+BU8sJW9sXhDd0IFz+Gft2Jwqpz1v7/kfjK1nJrCItTZnX9vGt31/zXA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/d5ef9c56aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="containet">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Manoj Naga Sai</span> <br>From India</h1>
+        </div>
+    </div>
+</div>
+<!-----------------about------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1><br>
+                <p>As a beginner-level UI/UX designer, my passion lies in crafting engaging and intuitive user experiences that fulfill both user needs and business objectives. My experience includes working on various projects, from mobile applications and websites to enterprise software and e-commerce platforms. 
+                    <br>
+                    <br>I am proficient in utilizing several design tools, including Sketch, Adobe XD, Figma, and InVision, to develop wireframes, prototypes, and high-fidelity designs. 
+                    <br>
+                    <br>I have skills in conducting user research, such as interviews, surveys, and usability testing, to gather insights and feedback that guide design decisions.
+                    <br>
+                    <br>
+                    In my free time, I enjoy attending design conferences and meetups, reading design blogs, books, and listening to podcasts, and experimenting with new design tools and techniques. Keeping up-to-date with the latest UI/UX trends and best practices is my passion, and I am always seeking new challenges and opportunities to expand and improve my skills as a designer.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <th><b>Design</b></th>
+                          <th><b>Software</b></th>
+                        </tr>
+                        <tr>
+                          <td>Typography</td>
+                          <td>Adobe Photoshop</td>
+                        </tr>
+                        <tr>
+                          <td>Visual Design</td>
+                          <td>Adobe Illustrator</td>
+                        </tr>
+                        <tr>
+                          <td>Wireframing</td>
+                          <td>Adobe XD</td>
+                        </tr>
+                        <tr>
+                          <td>Storyboarding</td>
+                          <td>Adobe InDesign</td>
+                        </tr>
+                        <tr>
+                          <td>Responsive Design</td>
+                          <td>Figma</td>
+                        </tr>
+                        <tr>
+                          <td>Rapid Prototyping</td>
+                          <td>HTML / CSS</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  
+                <div class="tab-contents" id="Experience">
+                    <table>
+                        <tr>
+                            <th><b>Adobe Photoshop</b></th>
+                            <th><b>UI/UX Design</b></th>
+                          </tr>
+                          <tr>
+                            <td>2 years</td>
+                            <td>7 months course from Google at coursera platform</td>
+                          </tr>
+                          <tr>
+                            <th><b>Adobe Illustrator</b></th>
+                            <th><b>Figma</b></th>
+                          </tr>
+                          <tr>
+                            <td>4 months</td>
+                            <td>6 months</td>
+                          </tr>
+                    </table>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <table>
+                        <tr>
+                            <th><b>Google UI/UX Desining</b></th>
+                            <th><b>B.Sc (MCCs)</b></th>
+                        </tr>
+                        <tr>
+                            <td>(12/August/2022-12/March/2023)<br>At coursera platform</td>
+                            <td>(July 2019-August 2022)<br>At Sir C R Reddy Autonomous College,Eluru</td>
+                            <tr>
+                                <th><b>Intermediate (MPC)</b></th>
+                                <th><b>SSC (10<sup>th</sup>std)</b></th>
+                              </tr>
+                              <tr>
+                                <td>(2016-2019) <br>At Srichaitanya junior College, Eluru</td>
+                                <td>(2015-2016) <br>At Little Buds High School,Eluru</td>
+                              </tr>
+                    </table>
+                </div>
+            </div>    
+            </div>
+        </div>
+    </div>
+</div>
+<!----------services---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-compass-drafting"></i>
+                <h2><b>Web Design</b></h2>
+                <p>I'm likely comfortable using various web design tools and technologies, including HTML, CSS, JavaScript, and web design software such as Adobe Photoshop, Sketch, or Figma. I possess the expertise to design websites that are responsive, for a wide range of devices to professional standards.As a result, I am able to deliver high-quality web design solutions that meet the needs of both the client and the end-user.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h2><b>UX Research</b></h2>
+                <p>I possess the necessary expertise to conduct comprehensive UX research, leveraging my knowledge of user-centered design principles and methodologies. With a focus on understanding user behavior, preferences, and pain points, I employ various research methods such as usability testing, user surveys, and user interviews to gather valuable insights that inform the design process.</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2><b>App Design</b></h2>
+                <p>Leveraging my expertise in mobile design, I am able to create dedicated mobile designs that are optimized for smaller screens and deliver an exceptional user experience. With a keen eye for detail and a user-centered design approach, I prioritize usability and accessibility in my mobile designs. I also stay abreast of the latest mobile design trends. By combining my skills in mobile design with my dedication to delivering high-quality work, I am able to provide effective solutions that meet the needs of both the client and the end-user.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+        <div class="Work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <h3>Bitcoin wallet</h3>
+                <a href="wallet.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <p>Click to open project</p>
+            </div>
+        </div>
+        <div class="Work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>76 Files</h3>
+                <a href="files website.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <p>Click to open project</p>
+            </div>
+        </div>
+        <div class="Work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3>Music</h3>
+                <a href="music.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <p>Click to open project</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------Contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> Manojsai049@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +91 8179470832</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100090997357710"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://instagram.com/manojsai_aapl?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/manoj-sai-0855171b8/"><i class="fa-brands fa-linkedin"></i></a>
+                </div><br>
+                <br>
+                <a href="Resume.pdf" class="btn" download>Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Suggestions" rows="6" placeholder="Suggestions to improve myself"></textarea>
+                    <button type="submit" class="btn2 btn3">Submit</button>
+                    <button type="reset" class="btn2 btn3">Reset</button>
+                </form>
+                <br><br><br>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Manoj Naga Sai Uppu.</p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxxmYEn8QuLXNOqRfy0plAvlbpvAkFIoqRUUOE-ZXFECdmKaXQWYxIRQg3pcCEckivH/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
